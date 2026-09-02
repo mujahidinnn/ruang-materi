@@ -23,7 +23,7 @@ export default function AnimatedHeroTitle() {
       >
         {WORDS[index]}
       </span>{" "}
-      <span className="text-orange-500">Materiku</span>
+      <span className="text-orange-500">Ruang Materi</span>
     </h1>
   );
 }

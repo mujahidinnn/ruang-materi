@@ -1,6 +1,6 @@
-# Materiku
+# Ruang Materi
 
-Materiku mengubah slide pembelajaran (PowerPoint) menjadi halaman interaktif yang bisa ditelusuri langsung di browser — tanpa mengunduh atau membuka aplikasi tambahan.
+Ruang Materi mengubah slide pembelajaran (PowerPoint) menjadi halaman interaktif yang bisa ditelusuri langsung di browser — tanpa mengunduh atau membuka aplikasi tambahan.
 
 ## Cara Kerja
 

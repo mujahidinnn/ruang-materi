@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import AnimatedHeroTitle from "@/components/AnimatedHeroTitle";
 import { getPresentations } from "@/lib/presentations";
-import { SITE_DESCRIPTION } from "@/lib/site";
+import { SITE_DESCRIPTION, SITE_NAME } from "@/lib/site";
 
 export default function Home() {
   const presentations = getPresentations();
@@ -14,7 +14,7 @@ export default function Home() {
       <header className="border-b border-zinc-800/80 px-6 py-5 sm:px-10">
         <div className="mx-auto flex max-w-5xl items-center justify-between">
           <span className="text-sm font-semibold tracking-tight text-zinc-50">
-            Materiku
+            {SITE_NAME}
           </span>
           <span className="hidden text-xs tracking-wide text-zinc-500 sm:block">
             Ruang Belajar Interaktif
@@ -82,7 +82,7 @@ export default function Home() {
       <footer className="border-t border-zinc-800/80 px-6 py-8 sm:px-10">
         <div className="mx-auto flex max-w-5xl flex-col gap-1 text-xs text-zinc-600 sm:flex-row sm:items-center sm:justify-between">
           <span>
-            &copy; {new Date().getFullYear()} Materiku. Seluruh hak cipta
+            &copy; {new Date().getFullYear()} {SITE_NAME}. Seluruh hak cipta
             dilindungi.
           </span>
           <a

@@ -138,7 +138,7 @@ async function main() {
     process.exit(1);
   }
 
-  const workDir = await mkdtemp(path.join(tmpdir(), "materiku-pptx-"));
+  const workDir = await mkdtemp(path.join(tmpdir(), "ruang-materiku-pptx-"));
   const presentations = [];
 
   try {
