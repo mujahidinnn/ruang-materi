@@ -22,6 +22,11 @@ const RENDER_DPI = 240;
 // Hand-tuned title/description per deck slug. Falls back to filename-derived
 // copy for any pptx dropped in without an entry here.
 const OVERRIDES = {
+  git: {
+    title: "Git",
+    description:
+      "Panduan komprehensif sistem kontrol versi, dari konsep dasar dan alur kerja harian, branching & merging, hingga kolaborasi tim profesional menggunakan repositori remote.",
+  },
   "git-dan-github": {
     title: "Git & GitHub",
     description:
@@ -31,6 +36,26 @@ const OVERRIDES = {
     title: "Git & GitLab",
     description:
       "Belajar version control dari konsep dasar Git sampai kolaborasi tim modern, lengkap dengan studi kasus CI/CD di GitLab.",
+  },
+  html5: {
+    title: "HTML5",
+    description:
+      "Fondasi modern pengembangan web: struktur dokumen, elemen semantik, multimedia, hingga API terbaru di HTML5.",
+  },
+  "html5-dan-css3": {
+    title: "HTML5 dan CSS3",
+    description:
+      "Fondasi struktur halaman web dan penguasaan styling modern, mulai dari selector dan layout, responsive design, hingga animasi CSS3.",
+  },
+  "html-css-javascript": {
+    title: "HTML CSS JavaScript",
+    description:
+      "Memahami bagaimana HTML, CSS, dan JavaScript saling terhubung, dirangkai dari alur kerja nyata, studi kasus, dan praktik terbaik.",
+  },
+  javascript: {
+    title: "JavaScript",
+    description:
+      "Panduan komprehensif JavaScript dari fundamental dan ES6, hingga fitur-fitur terkini, mencakup kontrol alur, objek, dan studi kasus.",
   },
 };
 
@@ -96,10 +121,37 @@ async function convertPptxToPdf(pptxPath, outDir) {
   return path.join(outDir, pdfName);
 }
 
+// `pdftoppm -r <dpi>` derives pixel dimensions from the PDF's own page box in
+// points, but LibreOffice's pptx->pdf export emits a page box with a tiny
+// fractional error (e.g. 960.009pt instead of 960pt). Poppler then rounds
+// that up to an extra pixel column, which renders as a stray white line down
+// one edge since no slide content extends into it. Reading the true page
+// size ourselves and asking pdftoppm to scale to an exact rounded pixel
+// size (instead of letting it derive one from the DPI) avoids the artifact.
+async function getPdfPageSizePt(pdfPath) {
+  const { stdout } = await execFileAsync("pdfinfo", [pdfPath]);
+  const match = stdout.match(/Page size:\s+([\d.]+)\s*x\s*([\d.]+)\s*pts/);
+  if (!match) {
+    throw new Error(`Could not read page size from pdfinfo for ${pdfPath}`);
+  }
+  return { widthPt: Number(match[1]), heightPt: Number(match[2]) };
+}
+
 async function convertPdfToSlides(pdfPath, outDir, slug) {
   await mkdir(outDir, { recursive: true });
   const prefix = path.join(outDir, "slide");
-  await execFileAsync("pdftoppm", ["-png", "-r", String(RENDER_DPI), pdfPath, prefix]);
+  const { widthPt, heightPt } = await getPdfPageSizePt(pdfPath);
+  const widthPx = Math.round((widthPt * RENDER_DPI) / 72);
+  const heightPx = Math.round((heightPt * RENDER_DPI) / 72);
+  await execFileAsync("pdftoppm", [
+    "-png",
+    "-scale-to-x",
+    String(widthPx),
+    "-scale-to-y",
+    String(heightPx),
+    pdfPath,
+    prefix,
+  ]);
 
   const files = (await readdir(outDir))
     .filter((f) => f.startsWith("slide-") && f.endsWith(".png"))

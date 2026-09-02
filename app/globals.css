@@ -71,3 +71,12 @@ body {
     animation: none;
   }
 }
+
+.bg-dot-grid {
+  background-image: radial-gradient(
+    circle,
+    rgba(212, 212, 216, 0.6) 1px,
+    transparent 1px
+  );
+  background-size: 28px 28px;
+}

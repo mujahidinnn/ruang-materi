@@ -2,6 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import AnimatedHeroTitle from "@/components/AnimatedHeroTitle";
+import HeroIllustration from "@/components/HeroIllustration";
+import PageBackdrop from "@/components/PageBackdrop";
 import { getPresentations } from "@/lib/presentations";
 import { SITE_DESCRIPTION, SITE_NAME } from "@/lib/site";
 
@@ -10,28 +12,24 @@ export default function Home() {
   const totalSlides = presentations.reduce((sum, p) => sum + p.slideCount, 0);
 
   return (
-    <>
-      <header className="border-b border-zinc-800/80 px-6 py-5 sm:px-10">
-        <div className="mx-auto flex max-w-5xl items-center justify-between">
-          <span className="text-sm font-semibold tracking-tight text-zinc-50">
-            {SITE_NAME}
-          </span>
-          <span className="hidden text-xs tracking-wide text-zinc-500 sm:block">
-            Ruang Belajar Interaktif
-          </span>
-        </div>
-      </header>
+    <div className="relative">
+      <PageBackdrop />
 
       <main className="px-6 sm:px-10">
-        <div className="mx-auto max-w-5xl">
-          <section className="border-b border-zinc-800/80 py-16 sm:py-24">
-            <p className="text-xs font-medium tracking-widest text-zinc-500 uppercase">
-              {presentations.length} materi · {totalSlides} slide
-            </p>
-            <AnimatedHeroTitle />
-            <p className="mt-6 max-w-xl text-base leading-relaxed text-zinc-400 sm:text-lg">
-              {SITE_DESCRIPTION}
-            </p>
+        <div className="mx-auto max-w-7xl">
+          <section className="grid grid-cols-1 items-center gap-10 border-b border-zinc-800/80 py-16 sm:py-24 lg:grid-cols-[1fr_auto] lg:gap-16">
+            <div>
+              <p className="text-xs font-medium tracking-widest text-zinc-500 uppercase">
+                {presentations.length} materi · {totalSlides} slide
+              </p>
+              <AnimatedHeroTitle />
+              <p className="mt-6 max-w-xl text-base leading-relaxed text-zinc-400 sm:text-lg">
+                {SITE_DESCRIPTION}
+              </p>
+            </div>
+            <div className="hidden justify-self-center lg:block lg:justify-self-end">
+              <HeroIllustration />
+            </div>
           </section>
 
           <section aria-label="Daftar materi belajar" className="py-16 sm:py-24">
@@ -80,7 +78,7 @@ export default function Home() {
       </main>
 
       <footer className="border-t border-zinc-800/80 px-6 py-8 sm:px-10">
-        <div className="mx-auto flex max-w-5xl flex-col gap-1 text-xs text-zinc-600 sm:flex-row sm:items-center sm:justify-between">
+        <div className="mx-auto flex max-w-7xl flex-col gap-1 text-xs text-zinc-600 sm:flex-row sm:items-center sm:justify-between">
           <span>
             &copy; {new Date().getFullYear()} {SITE_NAME}. Seluruh hak cipta
             dilindungi.
@@ -96,6 +94,6 @@ export default function Home() {
           </a>
         </div>
       </footer>
-    </>
+    </div>
   );
 }

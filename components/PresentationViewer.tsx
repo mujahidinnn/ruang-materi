@@ -223,7 +223,7 @@ export default function PresentationViewer({
     >
       <div
         className={`relative h-full w-full overflow-hidden bg-zinc-900 ${
-          isFullscreen ? "" : "max-w-6xl rounded-lg border border-zinc-800/80"
+          isFullscreen ? "" : "max-w-6xl rounded-lg"
         }`}
       >
         <Image

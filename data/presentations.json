@@ -2,205 +2,205 @@
   {
     "slug": "git",
     "title": "Git",
-    "description": "33 slide materi \"Git\". Jelajahi langsung di browser tanpa perlu mengunduh.",
+    "description": "Panduan komprehensif sistem kontrol versi, dari konsep dasar dan alur kerja harian, branching & merging, hingga kolaborasi tim profesional menggunakan repositori remote.",
     "slideCount": 33,
     "slides": [
       {
         "index": 1,
         "src": "/slides/git/slide-01.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 2,
         "src": "/slides/git/slide-02.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 3,
         "src": "/slides/git/slide-03.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 4,
         "src": "/slides/git/slide-04.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 5,
         "src": "/slides/git/slide-05.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 6,
         "src": "/slides/git/slide-06.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 7,
         "src": "/slides/git/slide-07.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 8,
         "src": "/slides/git/slide-08.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 9,
         "src": "/slides/git/slide-09.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 10,
         "src": "/slides/git/slide-10.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 11,
         "src": "/slides/git/slide-11.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 12,
         "src": "/slides/git/slide-12.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 13,
         "src": "/slides/git/slide-13.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 14,
         "src": "/slides/git/slide-14.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 15,
         "src": "/slides/git/slide-15.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 16,
         "src": "/slides/git/slide-16.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 17,
         "src": "/slides/git/slide-17.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 18,
         "src": "/slides/git/slide-18.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 19,
         "src": "/slides/git/slide-19.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 20,
         "src": "/slides/git/slide-20.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 21,
         "src": "/slides/git/slide-21.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 22,
         "src": "/slides/git/slide-22.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 23,
         "src": "/slides/git/slide-23.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 24,
         "src": "/slides/git/slide-24.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 25,
         "src": "/slides/git/slide-25.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 26,
         "src": "/slides/git/slide-26.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 27,
         "src": "/slides/git/slide-27.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 28,
         "src": "/slides/git/slide-28.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 29,
         "src": "/slides/git/slide-29.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 30,
         "src": "/slides/git/slide-30.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 31,
         "src": "/slides/git/slide-31.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 32,
         "src": "/slides/git/slide-32.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 33,
         "src": "/slides/git/slide-33.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       }
     ]
@@ -214,103 +214,103 @@
       {
         "index": 1,
         "src": "/slides/git-dan-github/slide-01.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 2,
         "src": "/slides/git-dan-github/slide-02.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 3,
         "src": "/slides/git-dan-github/slide-03.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 4,
         "src": "/slides/git-dan-github/slide-04.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 5,
         "src": "/slides/git-dan-github/slide-05.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 6,
         "src": "/slides/git-dan-github/slide-06.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 7,
         "src": "/slides/git-dan-github/slide-07.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 8,
         "src": "/slides/git-dan-github/slide-08.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 9,
         "src": "/slides/git-dan-github/slide-09.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 10,
         "src": "/slides/git-dan-github/slide-10.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 11,
         "src": "/slides/git-dan-github/slide-11.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 12,
         "src": "/slides/git-dan-github/slide-12.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 13,
         "src": "/slides/git-dan-github/slide-13.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 14,
         "src": "/slides/git-dan-github/slide-14.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 15,
         "src": "/slides/git-dan-github/slide-15.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 16,
         "src": "/slides/git-dan-github/slide-16.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 17,
         "src": "/slides/git-dan-github/slide-17.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       }
     ]
@@ -324,121 +324,121 @@
       {
         "index": 1,
         "src": "/slides/git-dan-gitlab/slide-01.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 2,
         "src": "/slides/git-dan-gitlab/slide-02.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 3,
         "src": "/slides/git-dan-gitlab/slide-03.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 4,
         "src": "/slides/git-dan-gitlab/slide-04.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 5,
         "src": "/slides/git-dan-gitlab/slide-05.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 6,
         "src": "/slides/git-dan-gitlab/slide-06.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 7,
         "src": "/slides/git-dan-gitlab/slide-07.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 8,
         "src": "/slides/git-dan-gitlab/slide-08.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 9,
         "src": "/slides/git-dan-gitlab/slide-09.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 10,
         "src": "/slides/git-dan-gitlab/slide-10.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 11,
         "src": "/slides/git-dan-gitlab/slide-11.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 12,
         "src": "/slides/git-dan-gitlab/slide-12.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 13,
         "src": "/slides/git-dan-gitlab/slide-13.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 14,
         "src": "/slides/git-dan-gitlab/slide-14.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 15,
         "src": "/slides/git-dan-gitlab/slide-15.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 16,
         "src": "/slides/git-dan-gitlab/slide-16.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 17,
         "src": "/slides/git-dan-gitlab/slide-17.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 18,
         "src": "/slides/git-dan-gitlab/slide-18.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 19,
         "src": "/slides/git-dan-gitlab/slide-19.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 20,
         "src": "/slides/git-dan-gitlab/slide-20.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       }
     ]
@@ -446,121 +446,121 @@
   {
     "slug": "html5",
     "title": "HTML5",
-    "description": "19 slide materi \"HTML5\". Jelajahi langsung di browser tanpa perlu mengunduh.",
+    "description": "Fondasi modern pengembangan web: struktur dokumen, elemen semantik, multimedia, hingga API terbaru di HTML5.",
     "slideCount": 19,
     "slides": [
       {
         "index": 1,
         "src": "/slides/html5/slide-01.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 2,
         "src": "/slides/html5/slide-02.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 3,
         "src": "/slides/html5/slide-03.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 4,
         "src": "/slides/html5/slide-04.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 5,
         "src": "/slides/html5/slide-05.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 6,
         "src": "/slides/html5/slide-06.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 7,
         "src": "/slides/html5/slide-07.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 8,
         "src": "/slides/html5/slide-08.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 9,
         "src": "/slides/html5/slide-09.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 10,
         "src": "/slides/html5/slide-10.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 11,
         "src": "/slides/html5/slide-11.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 12,
         "src": "/slides/html5/slide-12.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 13,
         "src": "/slides/html5/slide-13.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 14,
         "src": "/slides/html5/slide-14.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 15,
         "src": "/slides/html5/slide-15.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 16,
         "src": "/slides/html5/slide-16.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 17,
         "src": "/slides/html5/slide-17.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 18,
         "src": "/slides/html5/slide-18.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 19,
         "src": "/slides/html5/slide-19.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       }
     ]
@@ -568,187 +568,187 @@
   {
     "slug": "html5-dan-css3",
     "title": "HTML5 dan CSS3",
-    "description": "30 slide materi \"HTML5 dan CSS3\". Jelajahi langsung di browser tanpa perlu mengunduh.",
+    "description": "Fondasi struktur halaman web dan penguasaan styling modern, mulai dari selector dan layout, responsive design, hingga animasi CSS3.",
     "slideCount": 30,
     "slides": [
       {
         "index": 1,
         "src": "/slides/html5-dan-css3/slide-01.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 2,
         "src": "/slides/html5-dan-css3/slide-02.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 3,
         "src": "/slides/html5-dan-css3/slide-03.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 4,
         "src": "/slides/html5-dan-css3/slide-04.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 5,
         "src": "/slides/html5-dan-css3/slide-05.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 6,
         "src": "/slides/html5-dan-css3/slide-06.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 7,
         "src": "/slides/html5-dan-css3/slide-07.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 8,
         "src": "/slides/html5-dan-css3/slide-08.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 9,
         "src": "/slides/html5-dan-css3/slide-09.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 10,
         "src": "/slides/html5-dan-css3/slide-10.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 11,
         "src": "/slides/html5-dan-css3/slide-11.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 12,
         "src": "/slides/html5-dan-css3/slide-12.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 13,
         "src": "/slides/html5-dan-css3/slide-13.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 14,
         "src": "/slides/html5-dan-css3/slide-14.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 15,
         "src": "/slides/html5-dan-css3/slide-15.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 16,
         "src": "/slides/html5-dan-css3/slide-16.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 17,
         "src": "/slides/html5-dan-css3/slide-17.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 18,
         "src": "/slides/html5-dan-css3/slide-18.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 19,
         "src": "/slides/html5-dan-css3/slide-19.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 20,
         "src": "/slides/html5-dan-css3/slide-20.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 21,
         "src": "/slides/html5-dan-css3/slide-21.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 22,
         "src": "/slides/html5-dan-css3/slide-22.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 23,
         "src": "/slides/html5-dan-css3/slide-23.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 24,
         "src": "/slides/html5-dan-css3/slide-24.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 25,
         "src": "/slides/html5-dan-css3/slide-25.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 26,
         "src": "/slides/html5-dan-css3/slide-26.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 27,
         "src": "/slides/html5-dan-css3/slide-27.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 28,
         "src": "/slides/html5-dan-css3/slide-28.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 29,
         "src": "/slides/html5-dan-css3/slide-29.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 30,
         "src": "/slides/html5-dan-css3/slide-30.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       }
     ]
@@ -756,169 +756,169 @@
   {
     "slug": "html-css-javascript",
     "title": "HTML CSS JavaScript",
-    "description": "27 slide materi \"HTML CSS JavaScript\". Jelajahi langsung di browser tanpa perlu mengunduh.",
+    "description": "Memahami bagaimana HTML, CSS, dan JavaScript saling terhubung, dirangkai dari alur kerja nyata, studi kasus, dan praktik terbaik.",
     "slideCount": 27,
     "slides": [
       {
         "index": 1,
         "src": "/slides/html-css-javascript/slide-01.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 2,
         "src": "/slides/html-css-javascript/slide-02.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 3,
         "src": "/slides/html-css-javascript/slide-03.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 4,
         "src": "/slides/html-css-javascript/slide-04.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 5,
         "src": "/slides/html-css-javascript/slide-05.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 6,
         "src": "/slides/html-css-javascript/slide-06.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 7,
         "src": "/slides/html-css-javascript/slide-07.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 8,
         "src": "/slides/html-css-javascript/slide-08.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 9,
         "src": "/slides/html-css-javascript/slide-09.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 10,
         "src": "/slides/html-css-javascript/slide-10.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 11,
         "src": "/slides/html-css-javascript/slide-11.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 12,
         "src": "/slides/html-css-javascript/slide-12.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 13,
         "src": "/slides/html-css-javascript/slide-13.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 14,
         "src": "/slides/html-css-javascript/slide-14.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 15,
         "src": "/slides/html-css-javascript/slide-15.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 16,
         "src": "/slides/html-css-javascript/slide-16.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 17,
         "src": "/slides/html-css-javascript/slide-17.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 18,
         "src": "/slides/html-css-javascript/slide-18.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 19,
         "src": "/slides/html-css-javascript/slide-19.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 20,
         "src": "/slides/html-css-javascript/slide-20.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 21,
         "src": "/slides/html-css-javascript/slide-21.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 22,
         "src": "/slides/html-css-javascript/slide-22.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 23,
         "src": "/slides/html-css-javascript/slide-23.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 24,
         "src": "/slides/html-css-javascript/slide-24.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 25,
         "src": "/slides/html-css-javascript/slide-25.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 26,
         "src": "/slides/html-css-javascript/slide-26.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 27,
         "src": "/slides/html-css-javascript/slide-27.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       }
     ]
@@ -926,349 +926,349 @@
   {
     "slug": "javascript",
     "title": "JavaScript",
-    "description": "57 slide materi \"JavaScript\". Jelajahi langsung di browser tanpa perlu mengunduh.",
+    "description": "Panduan komprehensif JavaScript dari fundamental dan ES6, hingga fitur-fitur terkini, mencakup kontrol alur, objek, dan studi kasus.",
     "slideCount": 57,
     "slides": [
       {
         "index": 1,
         "src": "/slides/javascript/slide-01.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 2,
         "src": "/slides/javascript/slide-02.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 3,
         "src": "/slides/javascript/slide-03.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 4,
         "src": "/slides/javascript/slide-04.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 5,
         "src": "/slides/javascript/slide-05.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 6,
         "src": "/slides/javascript/slide-06.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 7,
         "src": "/slides/javascript/slide-07.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 8,
         "src": "/slides/javascript/slide-08.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 9,
         "src": "/slides/javascript/slide-09.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 10,
         "src": "/slides/javascript/slide-10.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 11,
         "src": "/slides/javascript/slide-11.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 12,
         "src": "/slides/javascript/slide-12.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 13,
         "src": "/slides/javascript/slide-13.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 14,
         "src": "/slides/javascript/slide-14.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 15,
         "src": "/slides/javascript/slide-15.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 16,
         "src": "/slides/javascript/slide-16.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 17,
         "src": "/slides/javascript/slide-17.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 18,
         "src": "/slides/javascript/slide-18.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 19,
         "src": "/slides/javascript/slide-19.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 20,
         "src": "/slides/javascript/slide-20.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 21,
         "src": "/slides/javascript/slide-21.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 22,
         "src": "/slides/javascript/slide-22.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 23,
         "src": "/slides/javascript/slide-23.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 24,
         "src": "/slides/javascript/slide-24.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 25,
         "src": "/slides/javascript/slide-25.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 26,
         "src": "/slides/javascript/slide-26.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 27,
         "src": "/slides/javascript/slide-27.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 28,
         "src": "/slides/javascript/slide-28.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 29,
         "src": "/slides/javascript/slide-29.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 30,
         "src": "/slides/javascript/slide-30.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 31,
         "src": "/slides/javascript/slide-31.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 32,
         "src": "/slides/javascript/slide-32.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 33,
         "src": "/slides/javascript/slide-33.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 34,
         "src": "/slides/javascript/slide-34.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 35,
         "src": "/slides/javascript/slide-35.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 36,
         "src": "/slides/javascript/slide-36.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 37,
         "src": "/slides/javascript/slide-37.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 38,
         "src": "/slides/javascript/slide-38.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 39,
         "src": "/slides/javascript/slide-39.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 40,
         "src": "/slides/javascript/slide-40.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 41,
         "src": "/slides/javascript/slide-41.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 42,
         "src": "/slides/javascript/slide-42.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 43,
         "src": "/slides/javascript/slide-43.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 44,
         "src": "/slides/javascript/slide-44.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 45,
         "src": "/slides/javascript/slide-45.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 46,
         "src": "/slides/javascript/slide-46.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 47,
         "src": "/slides/javascript/slide-47.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 48,
         "src": "/slides/javascript/slide-48.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 49,
         "src": "/slides/javascript/slide-49.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 50,
         "src": "/slides/javascript/slide-50.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 51,
         "src": "/slides/javascript/slide-51.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 52,
         "src": "/slides/javascript/slide-52.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 53,
         "src": "/slides/javascript/slide-53.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 54,
         "src": "/slides/javascript/slide-54.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 55,
         "src": "/slides/javascript/slide-55.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 56,
         "src": "/slides/javascript/slide-56.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       },
       {
         "index": 57,
         "src": "/slides/javascript/slide-57.png",
-        "width": 3201,
+        "width": 3200,
         "height": 1800
       }
     ]

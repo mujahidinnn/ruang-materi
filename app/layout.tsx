@@ -22,20 +22,38 @@ const babylonica = Babylonica({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: SITE_NAME,
+    default: `${SITE_NAME} — Ruang Belajar Interaktif`,
     template: `%s · ${SITE_NAME}`,
   },
   description: SITE_DESCRIPTION,
+  keywords: [
+    "materi belajar interaktif",
+    "slide interaktif",
+    "pptx ke web",
+    "belajar git",
+    "belajar html css javascript",
+    "presentasi interaktif",
+    "ruang materi",
+  ],
+  authors: [{ name: "Mujahidin", url: "https://mujahidin.my.id" }],
+  alternates: {
+    canonical: SITE_URL,
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
   openGraph: {
     type: "website",
+    locale: "id_ID",
     siteName: SITE_NAME,
-    title: SITE_NAME,
+    title: `${SITE_NAME} — Ruang Belajar Interaktif`,
     description: SITE_DESCRIPTION,
     url: SITE_URL,
   },
   twitter: {
     card: "summary_large_image",
-    title: SITE_NAME,
+    title: `${SITE_NAME} — Ruang Belajar Interaktif`,
     description: SITE_DESCRIPTION,
   },
 };
