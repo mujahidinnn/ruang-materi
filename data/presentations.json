@@ -754,6 +754,176 @@
     ]
   },
   {
+    "slug": "html-css-javascript",
+    "title": "HTML CSS JavaScript",
+    "description": "27 slide materi \"HTML CSS JavaScript\". Jelajahi langsung di browser tanpa perlu mengunduh.",
+    "slideCount": 27,
+    "slides": [
+      {
+        "index": 1,
+        "src": "/slides/html-css-javascript/slide-01.png",
+        "width": 3201,
+        "height": 1800
+      },
+      {
+        "index": 2,
+        "src": "/slides/html-css-javascript/slide-02.png",
+        "width": 3201,
+        "height": 1800
+      },
+      {
+        "index": 3,
+        "src": "/slides/html-css-javascript/slide-03.png",
+        "width": 3201,
+        "height": 1800
+      },
+      {
+        "index": 4,
+        "src": "/slides/html-css-javascript/slide-04.png",
+        "width": 3201,
+        "height": 1800
+      },
+      {
+        "index": 5,
+        "src": "/slides/html-css-javascript/slide-05.png",
+        "width": 3201,
+        "height": 1800
+      },
+      {
+        "index": 6,
+        "src": "/slides/html-css-javascript/slide-06.png",
+        "width": 3201,
+        "height": 1800
+      },
+      {
+        "index": 7,
+        "src": "/slides/html-css-javascript/slide-07.png",
+        "width": 3201,
+        "height": 1800
+      },
+      {
+        "index": 8,
+        "src": "/slides/html-css-javascript/slide-08.png",
+        "width": 3201,
+        "height": 1800
+      },
+      {
+        "index": 9,
+        "src": "/slides/html-css-javascript/slide-09.png",
+        "width": 3201,
+        "height": 1800
+      },
+      {
+        "index": 10,
+        "src": "/slides/html-css-javascript/slide-10.png",
+        "width": 3201,
+        "height": 1800
+      },
+      {
+        "index": 11,
+        "src": "/slides/html-css-javascript/slide-11.png",
+        "width": 3201,
+        "height": 1800
+      },
+      {
+        "index": 12,
+        "src": "/slides/html-css-javascript/slide-12.png",
+        "width": 3201,
+        "height": 1800
+      },
+      {
+        "index": 13,
+        "src": "/slides/html-css-javascript/slide-13.png",
+        "width": 3201,
+        "height": 1800
+      },
+      {
+        "index": 14,
+        "src": "/slides/html-css-javascript/slide-14.png",
+        "width": 3201,
+        "height": 1800
+      },
+      {
+        "index": 15,
+        "src": "/slides/html-css-javascript/slide-15.png",
+        "width": 3201,
+        "height": 1800
+      },
+      {
+        "index": 16,
+        "src": "/slides/html-css-javascript/slide-16.png",
+        "width": 3201,
+        "height": 1800
+      },
+      {
+        "index": 17,
+        "src": "/slides/html-css-javascript/slide-17.png",
+        "width": 3201,
+        "height": 1800
+      },
+      {
+        "index": 18,
+        "src": "/slides/html-css-javascript/slide-18.png",
+        "width": 3201,
+        "height": 1800
+      },
+      {
+        "index": 19,
+        "src": "/slides/html-css-javascript/slide-19.png",
+        "width": 3201,
+        "height": 1800
+      },
+      {
+        "index": 20,
+        "src": "/slides/html-css-javascript/slide-20.png",
+        "width": 3201,
+        "height": 1800
+      },
+      {
+        "index": 21,
+        "src": "/slides/html-css-javascript/slide-21.png",
+        "width": 3201,
+        "height": 1800
+      },
+      {
+        "index": 22,
+        "src": "/slides/html-css-javascript/slide-22.png",
+        "width": 3201,
+        "height": 1800
+      },
+      {
+        "index": 23,
+        "src": "/slides/html-css-javascript/slide-23.png",
+        "width": 3201,
+        "height": 1800
+      },
+      {
+        "index": 24,
+        "src": "/slides/html-css-javascript/slide-24.png",
+        "width": 3201,
+        "height": 1800
+      },
+      {
+        "index": 25,
+        "src": "/slides/html-css-javascript/slide-25.png",
+        "width": 3201,
+        "height": 1800
+      },
+      {
+        "index": 26,
+        "src": "/slides/html-css-javascript/slide-26.png",
+        "width": 3201,
+        "height": 1800
+      },
+      {
+        "index": 27,
+        "src": "/slides/html-css-javascript/slide-27.png",
+        "width": 3201,
+        "height": 1800
+      }
+    ]
+  },
+  {
     "slug": "javascript",
     "title": "JavaScript",
     "description": "57 slide materi \"JavaScript\". Jelajahi langsung di browser tanpa perlu mengunduh.",

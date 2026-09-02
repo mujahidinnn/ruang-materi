@@ -34,6 +34,28 @@ const OVERRIDES = {
   },
 };
 
+// Display order on the site, following the learning path rather than
+// filename alphabetical order. Slugs not listed here are appended at the
+// end (alphabetically), so a newly dropped-in pptx never goes missing.
+const DECK_ORDER = [
+  "git",
+  "git-dan-github",
+  "git-dan-gitlab",
+  "html5",
+  "html5-dan-css3",
+  "html-css-javascript",
+  "javascript",
+];
+
+function byDeckOrder(a, b) {
+  const ia = DECK_ORDER.indexOf(a.slug);
+  const ib = DECK_ORDER.indexOf(b.slug);
+  if (ia === -1 && ib === -1) return a.slug.localeCompare(b.slug);
+  if (ia === -1) return 1;
+  if (ib === -1) return -1;
+  return ia - ib;
+}
+
 function slugify(input) {
   return input
     .normalize("NFKD")
@@ -144,6 +166,8 @@ async function main() {
 
       console.log(`  -> ${slides.length} slides written to public/slides/${slug}/`);
     }
+
+    presentations.sort(byDeckOrder);
 
     await mkdir(DATA_DIR, { recursive: true });
     const manifestPath = path.join(DATA_DIR, "presentations.json");
