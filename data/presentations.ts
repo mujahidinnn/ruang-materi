@@ -58,11 +58,25 @@ export const presentations: PresentationEntry[] = [
     pptxFile: "JavaScript.pptx",
   },
   {
+    slug: "nodejs",
+    title: "Node.js",
+    description:
+      "Runtime JavaScript sisi server, dari konsep dasar dan modul, asynchronous programming, hingga membangun REST API dengan Express dan koneksi database.",
+    pptxFile: "Node-JS.pptx",
+  },
+  {
     slug: "reactjs",
     title: "ReactJS",
     description:
       "Library JavaScript untuk membangun antarmuka pengguna berbasis komponen, dari konsep dasar, komponen & props, state & hooks, hingga ekosistem dan deployment.",
     pptxFile: "ReactJS.pptx",
+  },
+  {
+    slug: "react-native-dengan-expo",
+    title: "React Native dengan Expo",
+    description:
+      "Membangun aplikasi mobile lintas platform dengan React Native dan Expo, dari konsep dasar komponen native, navigasi, hingga build dan deployment ke Android/iOS.",
+    pptxFile: "React_Native_dengan_Expo.pptx",
   },
   {
     slug: "vuejs",
