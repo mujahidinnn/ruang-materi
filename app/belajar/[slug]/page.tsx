@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import PresentationViewer from "@/components/PresentationViewer";
 import { getPresentation, getPresentations } from "@/lib/presentations";
-import { SITE_NAME, SITE_URL } from "@/lib/site";
+import { SITE_NAME, SITE_OG_IMAGE, SITE_URL } from "@/lib/site";
 
 export function generateStaticParams() {
   return getPresentations().map((presentation) => ({
@@ -20,9 +20,8 @@ export async function generateMetadata(
     return {};
   }
 
-  const { title, description, slides } = presentation;
+  const { title, description } = presentation;
   const url = `${SITE_URL}/belajar/${slug}`;
-  const ogImage = slides[0]?.src;
 
   return {
     title,
@@ -36,15 +35,13 @@ export async function generateMetadata(
       description,
       url,
       siteName: SITE_NAME,
-      images: ogImage
-        ? [{ url: ogImage, width: slides[0].width, height: slides[0].height }]
-        : undefined,
+      images: [SITE_OG_IMAGE],
     },
     twitter: {
       card: "summary_large_image",
       title: `${title} · ${SITE_NAME}`,
       description,
-      images: ogImage ? [ogImage] : undefined,
+      images: [SITE_OG_IMAGE.url],
     },
   };
 }
