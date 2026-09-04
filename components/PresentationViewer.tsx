@@ -259,7 +259,7 @@ export default function PresentationViewer({
   );
 
   return (
-    <div className="flex h-[100dvh] flex-col bg-zinc-950 text-zinc-50">
+    <div className="flex h-dvh flex-col bg-zinc-950 text-zinc-50">
       <header className="flex shrink-0 items-center justify-between gap-4 border-b border-zinc-800/80 px-4 py-3 short:py-1.5! sm:px-6">
         <div className="flex min-w-0 items-center gap-3">
           <Link

@@ -1,7 +1,16 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  images: {
+    // Slide images are pre-encoded to AVIF at build time (see
+    // scripts/generate-slides.mjs) with careful quality tuning. Next's
+    // on-the-fly image optimizer would otherwise decode that AVIF and
+    // re-encode it again (usually to WebP, since that's its default
+    // format) at its own quality setting — a second lossy pass that
+    // visibly softens the image. Serving the pre-encoded files as-is
+    // avoids that.
+    unoptimized: true,
+  },
 };
 
 export default nextConfig;
