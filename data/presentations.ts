@@ -16,6 +16,13 @@ export const presentations: PresentationEntry[] = [
     pptxFile: "Git.pptx",
   },
   {
+    slug: "github",
+    title: "GitHub",
+    description:
+      "Platform kolaborasi berbasis Git, dari membuat repositori dan mengelola akun, alur kerja branch & pull request, hingga fitur kolaborasi tim seperti issues dan Actions.",
+    pptxFile: "GitHub.pptx",
+  },
+  {
     slug: "git-dan-github",
     title: "Git & GitHub",
     description:
@@ -58,18 +65,18 @@ export const presentations: PresentationEntry[] = [
     pptxFile: "JavaScript.pptx",
   },
   {
-    slug: "nodejs",
-    title: "Node.js",
-    description:
-      "Runtime JavaScript sisi server, dari konsep dasar dan modul, asynchronous programming, hingga membangun REST API dengan Express dan koneksi database.",
-    pptxFile: "Node-JS.pptx",
-  },
-  {
     slug: "reactjs",
     title: "ReactJS",
     description:
       "Library JavaScript untuk membangun antarmuka pengguna berbasis komponen, dari konsep dasar, komponen & props, state & hooks, hingga ekosistem dan deployment.",
     pptxFile: "ReactJS.pptx",
+  },
+  {
+    slug: "vuejs",
+    title: "Vue.js",
+    description:
+      "Progressive JavaScript framework untuk membangun antarmuka web modern yang reaktif, mencakup konsep dasar, Composition API, komponen, routing, state management, hingga deployment.",
+    pptxFile: "VueJS.pptx",
   },
   {
     slug: "react-native-dengan-expo",
@@ -79,10 +86,10 @@ export const presentations: PresentationEntry[] = [
     pptxFile: "React_Native_dengan_Expo.pptx",
   },
   {
-    slug: "vuejs",
-    title: "Vue.js",
+    slug: "nodejs",
+    title: "Node.js",
     description:
-      "Progressive JavaScript framework untuk membangun antarmuka web modern yang reaktif, mencakup konsep dasar, Composition API, komponen, routing, state management, hingga deployment.",
-    pptxFile: "VueJS.pptx",
+      "Runtime JavaScript sisi server, dari konsep dasar dan modul, asynchronous programming, hingga membangun REST API dengan Express dan koneksi database.",
+    pptxFile: "Node-JS.pptx",
   },
 ];
